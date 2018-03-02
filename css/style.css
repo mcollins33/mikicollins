@@ -1,0 +1,65 @@
+body {
+	background-image: url(./images/dust_scratches.jpg);
+}
+
+h2 {
+    color: white;
+    margin-top: 65%;
+    font-family: 'Halant', serif;
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 30%;
+}
+
+img {
+    /*	position: relative;*/
+    height: auto;
+    width: auto;
+}
+
+.left {
+    margin-top: 15px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-family: 'Merriweather', serif;
+    font-size: 70px;
+    /*font-weight: bold;*/
+    margin-bottom: 0;
+}
+
+.text {
+    font-family: 'Halant', serif;
+    font-size: 18px;
+}
+
+.links {
+    margin-right: 15px;
+}
+
+.icon {
+    width: 100%
+}
+
+.btn-large {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    background-color: #33cc33;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.btn-large:focus{ 
+  background-color: #ffffb3; 
+}
+
+.btn-large:hover{ 
+  background-color: #ffff4d; 
+}
