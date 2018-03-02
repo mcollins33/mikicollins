@@ -1,5 +1,5 @@
 body {
-	background-image: url(./images/dust_scratches.jpg);
+	background-image: url(../images/light-veneer.png);
 }
 
 h2 {
@@ -32,6 +32,7 @@ img {
     font-size: 70px;
     /*font-weight: bold;*/
     margin-bottom: 0;
+	height: 90px;
 }
 
 .text {
@@ -62,4 +63,46 @@ img {
 
 .btn-large:hover{ 
   background-color: #ffff4d; 
+}
+
+@media only screen and (max-width: 1030px) {
+	[class*="name"] {
+    	margin-left: 25px;
+    	margin-right: 25px;
+		height: auto;
+    	font-size: 48px;
+    }
+    [class*="text"] {
+    	margin-top: 0;
+    	margin-left: 25px;
+    	margin-right: 25px;
+    	margin-bottom: 10px;
+    	font-size: 16px;
+    }
+    [class*="buttons"] {
+    	display: none;
+    }
+    h2 {
+    	font-size: 24px;
+    	top: 20%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+	[class*="text"] {
+        display: none;
+    }
+    [class*="name"] {
+    	margin-left: 10px;
+    	margin-right: 10px;
+    	margin-bottom: 10px;
+		height: auto;
+    	font-size: 36px;
+    }
+    [class*="buttons"] {
+    	display: none;
+    }
+    h2 {
+    	top: 25%;
+    }
 }
