@@ -39,7 +39,7 @@ $(document).ready(function() {
 
             var j = i + 4;
             var k = i + 8;
-            $(".interests1").append($("<div class='col sm12 m3'><img class='interests' src='./images/" + i + ".jpg'/></div>").hide().fadeIn(2500));
+            $(".interests1").append($("<div class='col sm12 m3'><img class='interests' src='./images/" + i + ".JPG'/></div>").hide().fadeIn(2500));
             $(".interests2").append($("<div class='col sm12 m3'><img class='interests' src='./images/" + j + ".jpg'/></div>").hide().fadeIn(2500));
             $(".interests3").append($("<div class='col sm12 m3'><img class='interests' src='./images/" + k + ".jpg'/></div>").hide().fadeIn(2500));
 

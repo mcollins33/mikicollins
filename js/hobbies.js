@@ -5,7 +5,7 @@ $(document).ready(function() {
 
             var j = i + 4;
 
-            $(".interests1").append($("<div class='col sm12 m3'><img class='interests' src='./images/" + i + ".jpg'/></div>").hide().fadeIn(1000));
+            $(".interests1").append($("<div class='col sm12 m3'><img class='interests' src='./images/" + i + ".JPG'/></div>").hide().fadeIn(1000));
             $(".interests2").append($("<div class='col sm12 m3'><img class='interests' src='./images/" + j + ".jpg'/></div>").hide().fadeIn(1000));
         }
     }, 500);
@@ -15,7 +15,7 @@ $(document).ready(function() {
 
             var j = i + 4;
 
-            $(".interests1").append($("<div class='col sm12 m3'><img class='interests' src='./images/" + i + ".jpg'/></div>").hide().fadeIn(1500));
+            $(".interests1").append($("<div class='col sm12 m3'><img class='interests' src='./images/" + i + ".JPG'/></div>").hide().fadeIn(1500));
             $(".interests2").append($("<div class='col sm12 m3'><img class='interests' src='./images/" + j + ".jpg'/></div>").hide().fadeIn(1500));
 
 
