@@ -1,5 +1,5 @@
 body {
-	background-image: url(./images/light-veneer.png);
+	background-image: url(../images/light-veneer.png);
 }
 
 h2 {
@@ -106,3 +106,14 @@ img {
     	top: 25%;
     }
 }
+
+.interests {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    margin-top: 25px;
+}
+    
+

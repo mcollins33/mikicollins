@@ -3,7 +3,6 @@
 
 <head>
     <title>Miki Collins</title>
-    <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
@@ -25,9 +24,16 @@
                     <p>I also have a sense of adventure and love to travel. In recent years, I have been on multiple trips cruising the Carribean and enjoying learning about the heritage and culture in these areas. One of my most memorable trips was to Ocho Rios where I jumped off a 30' cliff.</p>
                     <p>Having worked for the past 20 years in a manufacturing environment in engineering and management roles, I am excited to begin a new venture utilizing my artistic talents in coding and web development.</p>
                 </div>
-                <div class="row left buttons">
-                    <a class="waves-effect waves-light btn-large links" href="./portfolio.html">Portfolio</a>
-                    <a class="waves-effect waves-light btn-large links" href="./interests.html">Interests</a>
+                <div class="row left">
+                    <a href="./portfolio.html">
+                        <button type="button" class="waves-effect waves-light btn-large links" id="portfolio">Portfolio</button>
+                    </a>
+                    <a href="./photos.html">
+                        <button type="button" class="waves-effect waves-light btn-large links" id="photos">Photography</button>
+                    </a>
+                    <a href="./hobbies.html">
+                        <button type="button" class="waves-effect waves-light btn-large links" id="hobbies">Hobbies</button>
+                    </a>
                     <a class="btn-floating btn-large links" href="https://www.linkedin.com/in/miki-collins/"><img class="icon" src="./images/linkedin.png" alt="Linked In"></a>
                     <a class="btn-floating btn-large links" href="https://github.com/mcollins33"><img class="icon" src="./images/github.png" alt="GitHub"></a>
                 </div>
@@ -35,19 +41,19 @@
             <div class="col s12 m4">
                 <div class="carousel carousel-slider center" data-indicators="true">
                     <div class="carousel-item">
-                    	<img src="./images/profile.JPG" alt="Profile Pic">
+                        <img class="interests" src="./images/profile.JPG" alt="Profile Pic">
                         <h2 class="labels">Full Stack Developer</h2>
                     </div>
                     <div class="carousel-item">
-                    	<img src="./images/painting.jpg" alt="Holding Painting">
+                        <img src="./images/painting.jpg" alt="Holding Painting">
                         <h2 class="labels">Artistic</h2>
                     </div>
                     <div class="carousel-item">
-                    	<img src="./images/adventure.jpg" alt="Sky Course">
+                        <img src="./images/adventure.jpg" alt="Sky Course">
                         <h2 class="labels">Adventurous</h2>
                     </div>
                     <div class="carousel-item">
-                    	<img src="./images/challenge.JPG" alt="Crossfit">
+                        <img src="./images/challenge.JPG" alt="Crossfit">
                         <h2 class="labels">Determined</h2>
                     </div>
                 </div>
@@ -57,6 +63,7 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="./js/photos.js"></script>
 </body>
 
 </html>
