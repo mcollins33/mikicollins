@@ -15,7 +15,6 @@ h2 {
 }
 
 img {
-    /*	position: relative;*/
     height: auto;
     width: auto;
 }
@@ -30,7 +29,6 @@ img {
 .name {
     font-family: 'Merriweather', serif;
     font-size: 70px;
-    /*font-weight: bold;*/
     margin-bottom: 0;
 	height: 90px;
 }
@@ -65,6 +63,29 @@ img {
   background-color: #ffff4d; 
 }
 
+.interests {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#smallmenu {
+    padding-top: 25px;
+    float: right;
+    display: hide;
+}
+
+.menuicon {
+    width: 25px;
+}
+
+.dropdown-content li>a {
+    color: #7eaa3c;
+}
+
 @media only screen and (max-width: 1030px) {
 	[class*="name"] {
     	margin-left: 25px;
@@ -97,7 +118,7 @@ img {
     	margin-right: 10px;
     	margin-bottom: 10px;
 		height: auto;
-    	font-size: 36px;
+    	font-size: 32px;
     }
     [class*="buttons"] {
     	display: none;
@@ -105,15 +126,9 @@ img {
     h2 {
     	top: 25%;
     }
+    #smallmenu {
+        display: auto;
+    }
 }
 
-.interests {
-    width: 100%;
-}
-
-.center {
-    text-align: center;
-    margin-top: 25px;
-}
-    
 
