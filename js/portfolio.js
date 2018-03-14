@@ -40,6 +40,15 @@ $(document).ready(function() {
         }
     }, 2000);
 
+    setTimeout(function() {
+        for (var i = 17; i < 18; i++) {
+
+            var j = i + 4;
+
+            $(".interests3").append($("<div class='col sm12 m6'><h3 class='center'>Crystals Collector</h3><a href='https://mcollins33.github.io/crystal-game/'><img class='interests' src='./images/crystal.jpg'/></a><div id='crystaltext'></div></div>").hide().fadeIn(3000));
+            $("#crystaltext").append($("<div>The object of this game is to match a randomly generated number by clicking on crystals that have randomly generated numbers assigned to them.  Numbers change with each new game.  This was an individual project.  This game was made using HTML, CSS, Bootstrap, JavaScript and JQuery.</div>").hide().fadeIn(1000));
+        }
+    }, 2500);
 
     setTimeout(function() {
         $(".buttons").append($("<a class='waves-effect waves-light btn-large links' href='./index.html'>Home</a>").hide().fadeIn(500));
