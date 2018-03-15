@@ -51,6 +51,16 @@ $(document).ready(function() {
     }, 2500);
 
     setTimeout(function() {
+        for (var i = 18; i < 19; i++) {
+
+            var j = i + 4;
+
+            $(".interests3").append($("<div class='col sm12 m6'><h3 class='center'>JayMar Farms</h3><a href='https://mcollins33.github.io/jaymarfarms/'><img class='interests' src='./images/jaymar.jpg'/></a><div id='jaymartext'></div></div>").hide().fadeIn(3500));
+            $("#jaymartext").append($("<div>Currently in development.  Website for a farm located in Valdosta,GA.</div>").hide().fadeIn(1000));
+        }
+    }, 3000);
+
+    setTimeout(function() {
         $(".buttons").append($("<a class='waves-effect waves-light btn-large links' href='./index.html'>Home</a>").hide().fadeIn(500));
         $(".buttons").append($("<a href='./photos.html'><button type='button' class='waves-effect waves-light btn-large links' id='photos'>Photography</button></a>").hide().fadeIn(500));
         $(".buttons").append($("<a href='./hobbies.html'><button type='button' class='waves-effect waves-light btn-large links' id='hobbies'>Hobbies</button></a>").hide().fadeIn(500));
