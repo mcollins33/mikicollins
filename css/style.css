@@ -1,5 +1,5 @@
 body {
-	background-image: url(../images/light-veneer.png);
+    background-image: url(../images/light-veneer.png);
 }
 
 h2 {
@@ -30,7 +30,7 @@ img {
     font-family: 'Merriweather', serif;
     font-size: 70px;
     margin-bottom: 0;
-	height: 90px;
+    height: 90px;
 }
 
 .text {
@@ -55,12 +55,12 @@ img {
     border-radius: 25px;
 }
 
-.btn-large:focus{ 
-  background-color: #ffffb3; 
+.btn-large:focus {
+    background-color: #ffffb3;
 }
 
-.btn-large:hover{ 
-  background-color: #ffff4d; 
+.btn-large:hover {
+    background-color: #ffff4d;
 }
 
 .interests {
@@ -86,49 +86,51 @@ img {
     color: #7eaa3c;
 }
 
+#footer-title {
+    text-align: center;
+}
+
 @media only screen and (max-width: 1030px) {
-	[class*="name"] {
-    	margin-left: 25px;
-    	margin-right: 25px;
-		height: auto;
-    	font-size: 48px;
+    [class*="name"] {
+        margin-left: 25px;
+        margin-right: 25px;
+        height: auto;
+        font-size: 48px;
     }
     [class*="text"] {
-    	margin-top: 0;
-    	margin-left: 25px;
-    	margin-right: 25px;
-    	margin-bottom: 10px;
-    	font-size: 16px;
+        margin-top: 0;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 10px;
+        font-size: 16px;
     }
     [class*="buttons"] {
-    	display: none;
+        display: none;
     }
     h2 {
-    	font-size: 24px;
-    	top: 20%;
+        font-size: 24px;
+        top: 20%;
     }
 }
 
 @media only screen and (max-width: 760px) {
-	[class*="text"] {
+    [class*="text"] {
         display: none;
     }
     [class*="name"] {
-    	margin-left: 10px;
-    	margin-right: 10px;
-    	margin-bottom: 10px;
-		height: auto;
-    	font-size: 32px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        font-size: 32px;
     }
     [class*="buttons"] {
-    	display: none;
+        display: none;
     }
     h2 {
-    	top: 25%;
+        top: 25%;
     }
     #smallmenu {
         display: auto;
     }
 }
-
-
