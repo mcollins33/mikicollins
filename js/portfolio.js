@@ -25,8 +25,8 @@ $(document).ready(function() {
 
             var j = i + 4;
 
-            $(".interests1").append($("<div class='col sm12 m6'><h3 class='center'>Animal Hangman</h3><a href='https://mcollins33.github.io/Hangman-Game/'><img class='interests' src='./images/hangman.jpg'/></a><div id='hangmantext'></div></div>").hide().fadeIn(2000));
-            $("#hangmantext").append($("<div>An animal themed hangman game geared towards children.  This was an individual project.  This app was produced using HTML, CSS, JavaScript, JQuery, and GitHub.</div>").hide().fadeIn(1000));
+            $(".interests1").append($("<div class='col sm12 m6'><h3 class='center'>JayMar Farms</h3><a href='http://jaymarfarms.com/'><img class='interests' src='./images/jaymar.jpg'/></a><div id='jaymartext'></div></div>").hide().fadeIn(3500));
+            $("#jaymartext").append($("<div>Website for a small, family farm located in Hahira, GA.</div>").hide().fadeIn(1000));
         }
     }, 1500);
 
@@ -54,10 +54,10 @@ $(document).ready(function() {
         for (var i = 18; i < 19; i++) {
 
             var j = i + 4;
-
-            $(".interests3").append($("<div class='col sm12 m6'><h3 class='center'>JayMar Farms</h3><a href='https://mcollins33.github.io/jaymarfarms/'><img class='interests' src='./images/jaymar.jpg'/></a><div id='jaymartext'></div></div>").hide().fadeIn(3500));
-            $("#jaymartext").append($("<div>Currently in development.  Website for a farm located in Valdosta,GA.</div>").hide().fadeIn(1000));
+            $(".interests3").append($("<div class='col sm12 m6'><h3 class='center'>Animal Hangman</h3><a href='https://mcollins33.github.io/Hangman-Game/'><img class='interests' src='./images/hangman.jpg'/></a><div id='hangmantext'></div></div>").hide().fadeIn(2000));
+            $("#hangmantext").append($("<div>An animal themed hangman game geared towards children.  This was an individual project.  This app was produced using HTML, CSS, JavaScript, JQuery, and GitHub.</div>").hide().fadeIn(1000));
         }
+
     }, 3000);
 
     setTimeout(function() {
